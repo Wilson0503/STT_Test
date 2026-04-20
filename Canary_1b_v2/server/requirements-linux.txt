@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+numpy
+soundfile
+nemo_toolkit[asr]

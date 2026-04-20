@@ -1,0 +1,111 @@
+# ------------------------------
+# Python bytecode / cache
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+
+# Packaging / build
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Test / coverage / type-check caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.nox/
+.tox/
+.dmypy.json
+dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ------------------------------
+# Virtual environments
+# ------------------------------
+.venv/
+.venv_*/
+venv/
+env/
+ENV/
+
+# ------------------------------
+# IDE / editor
+# ------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------
+# Environment and secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# Credentials / keys / auth artifacts
+service_account.json
+*service-account*.json
+*credentials*.json
+*secret*.json
+*.pem
+*.key
+*.p12
+
+# Browser / API cookies / tokens
+cookies.txt
+*_cookies.txt
+*.cookie
+
+# ------------------------------
+# Logs / runtime temp
+# ------------------------------
+*.log
+logs/
+*.tmp
+*.temp
+
+# ------------------------------
+# Local datasets / media artifacts
+# ------------------------------
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.opus
+*.webm
+*.mp4
+*.mov
+
+# Large local transcript / word-list artifacts
+*words/
+
+# If you have local model/download caches, keep them out of git
+.cache/
+.huggingface/
+
+# Python local settings
+.python-version
+
+# Embedded repository (avoid accidental gitlink/submodule commit)
+Canary_1b_v2/NeMo/
