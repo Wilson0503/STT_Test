@@ -98,6 +98,7 @@ logs/
 *.mov
 
 # Large local transcript / word-list artifacts
+*words
 *words/
 
 # If you have local model/download caches, keep them out of git
